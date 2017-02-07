@@ -1,0 +1,13 @@
+PODS:
+  - CZYGoodsDetailServiceProtocol (0.0.2)
+  - CZYProtocolManager (0.0.7)
+
+DEPENDENCIES:
+  - CZYGoodsDetailServiceProtocol
+  - CZYProtocolManager
+
+SPEC CHECKSUMS:
+  CZYGoodsDetailServiceProtocol: cf1e90c7935ff4a67a4b177fc9556603643925e4
+  CZYProtocolManager: 305891e7dfc6160b092e0a2431e27c09b66d34e8
+
+COCOAPODS: 0.39.0

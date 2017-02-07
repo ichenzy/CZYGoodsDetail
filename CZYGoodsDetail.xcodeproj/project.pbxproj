@@ -15,6 +15,10 @@
 		AD09D69D1E49A2BA003AD3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD09D69B1E49A2BA003AD3AE /* LaunchScreen.storyboard */; };
 		AD09D6A81E49A2BA003AD3AE /* CZYGoodsDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6A71E49A2BA003AD3AE /* CZYGoodsDetailTests.m */; };
 		AD09D6B31E49A2BA003AD3AE /* CZYGoodsDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6B21E49A2BA003AD3AE /* CZYGoodsDetailUITests.m */; };
+		AD09D6C61E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6C21E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.m */; };
+		AD09D6C71E49A2ED003AD3AE /* CZYGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D6C41E49A2ED003AD3AE /* CZYGoodsDetailViewController.m */; };
+		AD09D6C81E49A2ED003AD3AE /* CZYGoodsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD09D6C51E49A2ED003AD3AE /* CZYGoodsDetailViewController.xib */; };
+		E339E121EA5539B92B704479 /* libPods-CZYGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E505351C8D4032A370494B47 /* libPods-CZYGoodsDetail.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FA0F06A7FA7CA5C89380412 /* Pods-CZYGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZYGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZYGoodsDetail/Pods-CZYGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		AD09D68A1E49A2BA003AD3AE /* CZYGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZYGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD09D68E1E49A2BA003AD3AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD09D6901E49A2BA003AD3AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		AD09D6AE1E49A2BA003AD3AE /* CZYGoodsDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZYGoodsDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD09D6B21E49A2BA003AD3AE /* CZYGoodsDetailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZYGoodsDetailUITests.m; sourceTree = "<group>"; };
 		AD09D6B41E49A2BA003AD3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD09D6C11E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZYGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		AD09D6C21E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZYGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+		AD09D6C31E49A2ED003AD3AE /* CZYGoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZYGoodsDetailViewController.h; sourceTree = "<group>"; };
+		AD09D6C41E49A2ED003AD3AE /* CZYGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZYGoodsDetailViewController.m; sourceTree = "<group>"; };
+		AD09D6C51E49A2ED003AD3AE /* CZYGoodsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZYGoodsDetailViewController.xib; sourceTree = "<group>"; };
+		E505351C8D4032A370494B47 /* libPods-CZYGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZYGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9F3E6B4B8294AB3D21A6E4 /* Pods-CZYGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZYGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZYGoodsDetail/Pods-CZYGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E339E121EA5539B92B704479 /* libPods-CZYGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871A4BFA09D7A2E61BF7BEE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E505351C8D4032A370494B47 /* libPods-CZYGoodsDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A653FB7016FB04309B7CE58A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0F06A7FA7CA5C89380412 /* Pods-CZYGoodsDetail.debug.xcconfig */,
+				EC9F3E6B4B8294AB3D21A6E4 /* Pods-CZYGoodsDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD09D6811E49A2BA003AD3AE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				AD09D6A61E49A2BA003AD3AE /* CZYGoodsDetailTests */,
 				AD09D6B11E49A2BA003AD3AE /* CZYGoodsDetailUITests */,
 				AD09D68B1E49A2BA003AD3AE /* Products */,
+				A653FB7016FB04309B7CE58A /* Pods */,
+				871A4BFA09D7A2E61BF7BEE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +133,7 @@
 		AD09D68C1E49A2BA003AD3AE /* CZYGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				AD09D6C01E49A2D1003AD3AE /* CZYGoodsDetail */,
 				AD09D6901E49A2BA003AD3AE /* AppDelegate.h */,
 				AD09D6911E49A2BA003AD3AE /* AppDelegate.m */,
 				AD09D6931E49A2BA003AD3AE /* ViewController.h */,
@@ -140,6 +173,18 @@
 			path = CZYGoodsDetailUITests;
 			sourceTree = "<group>";
 		};
+		AD09D6C01E49A2D1003AD3AE /* CZYGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D6C11E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.h */,
+				AD09D6C21E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.m */,
+				AD09D6C31E49A2ED003AD3AE /* CZYGoodsDetailViewController.h */,
+				AD09D6C41E49A2ED003AD3AE /* CZYGoodsDetailViewController.m */,
+				AD09D6C51E49A2ED003AD3AE /* CZYGoodsDetailViewController.xib */,
+			);
+			path = CZYGoodsDetail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD09D6B71E49A2BA003AD3AE /* Build configuration list for PBXNativeTarget "CZYGoodsDetail" */;
 			buildPhases = (
+				C6DD9E9FF328933E57DACB4C /* Check Pods Manifest.lock */,
 				AD09D6861E49A2BA003AD3AE /* Sources */,
 				AD09D6871E49A2BA003AD3AE /* Frameworks */,
 				AD09D6881E49A2BA003AD3AE /* Resources */,
+				EDC45A75EC6E5B1E4ED83385 /* Embed Pods Frameworks */,
+				D9A57D5D07552B26C513C087 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +296,7 @@
 			files = (
 				AD09D69D1E49A2BA003AD3AE /* LaunchScreen.storyboard in Resources */,
 				AD09D69A1E49A2BA003AD3AE /* Assets.xcassets in Resources */,
+				AD09D6C81E49A2ED003AD3AE /* CZYGoodsDetailViewController.xib in Resources */,
 				AD09D6981E49A2BA003AD3AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +317,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6DD9E9FF328933E57DACB4C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A57D5D07552B26C513C087 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZYGoodsDetail/Pods-CZYGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC45A75EC6E5B1E4ED83385 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZYGoodsDetail/Pods-CZYGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD09D6861E49A2BA003AD3AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD09D6C61E49A2ED003AD3AE /* CZYGoodsDetailServiceProvide.m in Sources */,
 				AD09D6951E49A2BA003AD3AE /* ViewController.m in Sources */,
+				AD09D6C71E49A2ED003AD3AE /* CZYGoodsDetailViewController.m in Sources */,
 				AD09D6921E49A2BA003AD3AE /* AppDelegate.m in Sources */,
 				AD09D68F1E49A2BA003AD3AE /* main.m in Sources */,
 			);
@@ -420,9 +519,11 @@
 		};
 		AD09D6B81E49A2BA003AD3AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA0F06A7FA7CA5C89380412 /* Pods-CZYGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZYGoodsDetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYGoodsDetail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +532,11 @@
 		};
 		AD09D6B91E49A2BA003AD3AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9F3E6B4B8294AB3D21A6E4 /* Pods-CZYGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZYGoodsDetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYGoodsDetail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +608,7 @@
 				AD09D6B91E49A2BA003AD3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD09D6BA1E49A2BA003AD3AE /* Build configuration list for PBXNativeTarget "CZYGoodsDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +617,7 @@
 				AD09D6BC1E49A2BA003AD3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD09D6BD1E49A2BA003AD3AE /* Build configuration list for PBXNativeTarget "CZYGoodsDetailUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +626,7 @@
 				AD09D6BF1E49A2BA003AD3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

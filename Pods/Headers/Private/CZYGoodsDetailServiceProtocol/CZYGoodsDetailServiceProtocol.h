@@ -1,0 +1,1 @@
+../../../CZYGoodsDetailServiceProtocol/CZYGoodsDetailServiceProtocol/CZYGoodsDetailServiceProtocol/CZYGoodsDetailServiceProtocol.h
