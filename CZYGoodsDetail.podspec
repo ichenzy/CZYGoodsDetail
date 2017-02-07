@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CZYGoodsDetail"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "CZYGoodsDetail"
 
   s.description  = <<-DESC
@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources   - "CZYGoodsDetail/CZYGoodsDetail/**/*.{xib}"
+  s.resources   = "CZYGoodsDetail/CZYGoodsDetail/**/*.{xib}"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
